@@ -38,7 +38,7 @@
     "@types/webpack-dev-server": "^3.11.0",
     "bulma": "^0.8.2",
     "gts": "^2.0.0",
-    "node-sass": "^4.14.1",
+    "node-sass": "^7.0.0",
     "ts-loader": "^7.0.5",
     "ts-node": "^8.10.2",
     "typescript": "^3.9.5",
