@@ -8,7 +8,7 @@
     "check": "gts check",
     "clean": "gts clean",
     "compile": "tsc",
-    "css-build": "node-sass scss/main.scss build/css/main.css",
+    "css-build": "node-sass scss/main.scss build/css/main.css --importer=node_modules/node-sass-tilde-importer",
     "css-watch": "npm run css-build -- --watch",
     "fix": "gts fix",
     "posttest": "npm.cmd run check",
@@ -20,7 +20,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/sidrk/trle-tropes.git"
+    "url": "git+https://github.com/SidDays/trle-tropes.git"
   },
   "keywords": [
     "trle"
@@ -28,22 +28,22 @@
   "author": "Siddhesh Rajiv Karekar",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/sidrk/trle-tropes/issues"
+    "url": "https://github.com/SidDays/trle-tropes/issues"
   },
-  "homepage": "https://github.com/sidrk/trle-tropes#readme",
-  "dependencies": {},
+  "homepage": "https://github.com/SidDays/trle-tropes#readme",
   "devDependencies": {
-    "@types/node": "^10.17.26",
-    "@types/webpack": "^4.41.17",
-    "@types/webpack-dev-server": "^3.11.0",
-    "bulma": "^0.8.2",
-    "gts": "^2.0.0",
-    "node-sass": "^4.14.1",
+    "@types/node": "^10.17.60",
+    "@types/webpack": "^4.41.32",
+    "@types/webpack-dev-server": "^3.11.6",
+    "bootstrap": "^5.2.0",
+    "gts": "^2.0.2",
+    "node-sass": "^7.0.1",
+    "node-sass-tilde-importer": "^1.0.2",
     "ts-loader": "^7.0.5",
     "ts-node": "^8.10.2",
-    "typescript": "^3.9.5",
-    "webpack": "^4.43.0",
-    "webpack-cli": "^3.3.11",
-    "webpack-dev-server": "^3.11.0"
+    "typescript": "^3.9.10",
+    "webpack": "^4.46.0",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.3"
   }
 }
