@@ -1,6 +1,3 @@
 node_modules
+.vscode
 *.code-workspace
-
-# # Sourcemaps are enabled for now - find a more elegant solution to automate build processes?
-# build/src/**/*.d.ts
-# build/src/**/*.js.map
