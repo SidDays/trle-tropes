@@ -1,4 +1,5 @@
 node_modules
+*.code-workspace
 
 # # Sourcemaps are enabled for now - find a more elegant solution to automate build processes?
 # build/src/**/*.d.ts
